@@ -7,7 +7,7 @@
 .shop-list-item {
     display: inline-block;
     border-radius: 5px;
-    box-shadow: 0 0 10px silver;
+    box-shadow: 0 0 10px rgb(85, 83, 83);
     position: relative;
     margin: 25px 5px 5px 5px;
     padding: 15px 0px;
@@ -24,9 +24,14 @@
     text-align: center;
     font-size: 20px;
 
-.shop-list-item:hover {
+    .shop-list-item:hover {
         box-shadow: 0 0 5px green;
     }
+}
+
+.box-img {
+    width: 75%;
+    height: 75%;
 }
 
 .box-icon {
@@ -40,7 +45,7 @@
     position: absolute;
     left: 8px;
     bottom: 8px;
-    width: 25px;
+    font-size: 50px;
 }
 
 .box-action {
@@ -48,9 +53,4 @@
     width: 25px;
     bottom: 5px;
     right: 8px;
-}
-
-.box-img {
-    width: 75%;
-    height: 75%;
 }
